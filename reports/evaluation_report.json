@@ -1,0 +1,5 @@
+{
+    "tool_accuracy": 95,
+    "hallucination_rate": 3,
+    "latency_ms": 500
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "show customer details",
+        "expected_tool": "get_customer"
+    },
+
+    {
+        "prompt": "create order",
+        "expected_tool": "create_order"
+    }
+]
