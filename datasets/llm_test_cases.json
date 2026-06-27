@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "expected_answer": "Paris"
+  },
+  {
+    "question": "What is the capital of Germany?",
+    "expected_answer": "Berlin"
+  },
+  {
+    "question": "What is the capital of Spain?",
+    "expected_answer": "Madrid"
+  }
+]

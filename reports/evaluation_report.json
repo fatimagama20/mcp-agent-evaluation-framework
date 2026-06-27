@@ -1,5 +1,21 @@
 {
-    "tool_accuracy": 95,
-    "hallucination_rate": 3,
-    "latency_ms": 500
+    "accuracy": 100.0,
+    "hallucination_rate": 0.0,
+    "results": [
+        {
+            "question": "What is the capital of France?",
+            "answer": "The capital of France is Paris.",
+            "passed": true
+        },
+        {
+            "question": "What is the capital of Germany?",
+            "answer": "The capital of Germany is Berlin.",
+            "passed": true
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answer": "The capital of Spain is Madrid.",
+            "passed": true
+        }
+    ]
 }
