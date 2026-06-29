@@ -12,4 +12,19 @@ result = server.execute_tool(
     customer_id=101
 )
 
-print(result)
+print("\nEvaluation Results")
+print("-" * 60)
+
+for result in results:
+
+    print(f"Question   : {result['question']}")
+
+    print(f"Expected   : {result['expected_answer']}")
+
+    print(f"Answer     : {result['answer']}")
+
+    print(f"Passed     : {result['passed']}")
+
+    print(f"Relevancy  : {result['relevancy']:.2f}")
+
+    print("-" * 60)
